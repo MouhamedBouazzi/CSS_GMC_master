@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+/* initialisation */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Header CSS */
+
+/* *************************************************** */
+/* Main Part CSS */
+/* Introduction Part CSS */
+#introduction {
+  /* postions */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* box model */
+  /* No! */
+  /* width: 80%;  */
+  margin: 2% 10%;
+}
+#introduction h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: "Kalam", cursive;
+  margin: 2%;
+}
+#intro_para {
+  display: flex;
+}
+#intro_para p {
+  color: gray;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 2%;
+}
+/* *********************************************** */
+#nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.98);
+  transition: box-shadow 0.25s ease 0s;
+}
+#everything {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo {
+  width: 268px;
+  height: 33px;
+}
+#nav h1 {
+  margin: 2px 0 0;
+  line-height: 68px;
+  display: inline-block;
+  position: relative;
+}
+
+.main-nav {
+  position: relative;
+  float: right;
+}
+.menu {
+  list-style: none;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+.menu li {
+  display: inline-block;
+}
+.main-menu a {
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  padding: 0 0.6em;
+}
+.dropdown {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 5px 10px #d3cfc9;
+  z-index: 1;
+}
+.menu .is-current {
+  color: #00b39b;
+}
+.drp {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+/* *********************************************** */
+/* services Part CSS */
+#services {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 10%;
+  max-width: 1500px;
+}
+
+.service {
+  width: 362px;
+  height: 503px;
+  display: inline-block;
+}
+
+.service {
+  background: #00ccb1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 20%;
+}
+.service img {
+  width: 43px;
+  height: 67px;
+}
+#services1 h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+#services1 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
+#services1 select {
+  background: none;
+  font-size: 40px;
+}
+#services2 {
+  background-color: purple;
+}
+#services3 {
+  background-color: gray;
+}
+.service select {
+  position: relative;
+  font-family: Arial;
+}
+
+/* *********************************************** */
+/* Countries Part CSS */
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* box model */
+  margin: 2% 10%;
+}
+.country {
+  margin: 2%;
+  border-radius: 10px;
+}
+.country img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.country:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+/* *********************************************** */
+
+.logos h1 {
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0;
+  width: 67%;
+  list-style: none;
+}
+.logos a {
+  display: inline-block;
+  padding: 5px 0;
+}
+.ij {
+  transition: all 0.2s ease 0s;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
